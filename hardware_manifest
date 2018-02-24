@@ -1,0 +1,13 @@
+#Hardware Manifest
+#0xFD is the identifier of the CAMERA_EXT protocol
+#
+#The below is the example of the manifest lines contains the CAMERA_EXT protocol:
+
+; CAMERA_EXT on CPort XX
+[cport-descriptor XX]
+bundle = YY
+protocol = 0xed
+
+; Camera Bundle YY as Camera Class
+[bundle-descriptor YY]
+class = 0x0d
